@@ -9,9 +9,11 @@ body {
     background-repeat: no-repeat;
     padding: 100px 150px;
     margin-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-
 
 
 h1 {
@@ -45,7 +47,7 @@ h1 {
 
 section {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -147,4 +149,41 @@ footer small {
 .our-donate-plan {
     text-align: center;
     
+}
+
+.amount {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.action {
+    border: 3px solid tomato;
+
+}
+
+.amount button {
+    height: 125px;
+    width: 125px;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.028);
+    color:black;
+    padding: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+
+   
+}
+
+.send-amount {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.send-amount p{
+    color:rgba(0, 0, 0, 0.441);
 }
